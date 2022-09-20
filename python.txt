@@ -1,0 +1,20 @@
+Q:Calculate Areas for different shapes using python
+solution code:
+#define calculate_area(name):/
+if name:="square":
+    s=int(input("Enter side of a square,"))
+    area=s*s
+    print(area) 
+elif name=="rectangle":
+    l=int(input("enter length,"))
+    b=int(input("enter breadth,"))
+    area=l*b
+    print(area)
+elif name=="circle":
+    r=float(input("enter radius"))
+    #define pi
+    pi=3.14
+    area=pi*r*r
+    print("area:%2f")
+else:
+    print("not valid")
